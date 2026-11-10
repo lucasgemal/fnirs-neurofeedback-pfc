@@ -1,0 +1,29 @@
+# session data / runtime state
+logs/
+run/
+*_meta.json
+# recordings and montage data
+*.npz
+*.nirs
+*.snirf
+*.mat
+probeInfo*
+# PDFs (e.g. copyrighted Aurora manual); project docs are whitelisted
+*.pdf
+!docs/**/*.pdf
+# python / tooling
+__pycache__/
+*.pyc
+.claude/
+# third-party repositories
+Neurofeedback-with-MNE-and-PsychoPy/
+# credentials
+.env
+*.key
+*.pem
+credentials*
+secrets*
+
+# local-only
+CLAUDE.md
+Psychopy_TrialTypes.xlsx
